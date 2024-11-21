@@ -1,0 +1,11 @@
+dn: uid=uidrep, ou=people, o=auth
+changetype: modify
+replace: sltInactiveStatus
+sltInactiveStatus: Suspended
+-
+replace: inetUserStatus
+inetUserStatus: inactive
+-
+add: description
+description: repdesc
+
